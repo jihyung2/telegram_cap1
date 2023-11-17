@@ -17,22 +17,30 @@
   - ### System Requirements
     - 사용자가 챗봇에 파이썬 이론에 관한 질문을 하면 답변된 Q&A 데이터에서 적절한 답변을 추출 후 답변 
     - 모바일, 웹 환경 모두 챗봇 환경 지원
-    - 파이썬 코딩 실습 환경 제공을 위한 온라인 저지 구축
 
-  - ### System Architecture
-  ![image01](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/628faea1-c0f2-4cf9-a609-44d634dfeb75)   
-  
+   - ### 실제 챗봇 학습 데이터
+  ![q a_data](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/8e3f09f3-fc09-4cbe-bfe0-40ab9b0cb6ca)
+
+   - ### 사용자 부하 테스트
+  <img width="499" alt="서버_사용자_부하_테스트" src="https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/0441b2ae-096d-45c9-9ddf-7bc7cc1edf0b">
+
+  - ### App System Architecture
+  ![App_System_configuration_diagram](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/945be4b0-0c41-47d9-b589-6216eed6b14f)
+
+  - ### App System Data Flow
+  ![App_system_flowchart](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/89ef0e2e-1c56-4bb1-be56-c58061bb7540)
+
+  - ### 매주 수집한 학생데이터로 챗봇 자동 업데이트
+  ![과제제출_봇](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/52690408/a3e68845-9f46-4f54-881f-bdb18ad8d61c)
+
+
 ## 💻 Tech Stack
 <h4> Platforms & Languages </h4>
 
 <div align="left">
-	<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
     <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
     <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
-    <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
     <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-    <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
 	
 </div>
 
@@ -48,15 +56,13 @@
   - 컴퓨터공학과 1학년 파이썬 수업에서 학생들에게 질문을 받아 답변해주며 5000개 이상의 Q&A 데이터를 확보하고 모델 학습에 사용함
   - 학생들은 시공간의 제약 없이 각자의 학습 속도와 이해 수준에 맞게 질문을 할 수 있게 되었고, 원하는 질문에 대한 답을 얻을 수 있게 되었음
   - 해당 챗봇 시스템은 프로그래밍 수업뿐만 아니라 다양한 학습 환경에서 유용하게 활용될 수 있음
-  - 모바일, 웹 환경 모두 사용이 가능하며 웹에서는 간단한 온라인저지를 통해 간단한 코딩 실습 공간으로 이용 가능
   
 ## Project Outcome
 - ### 2023년 한국전기전자학회 학술대회
 <img width="638" alt="스크린샷 2023-10-26 오후 4 31 51" src="https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/124351914/67837f59-04ab-4a13-b096-5e854e31b133">
 
-- ### App, Web
+- ### App Telegram
 ![mobile](https://github.com/HBNU-SWUNIV/come-capstone23-edubot/assets/124351914/fa8bae85-7c38-4b3c-97be-2ca8d8019da3)
-
 
 
 ## 패치노트
@@ -325,5 +331,4 @@ context.bot.send_message(chat_id=chat_id, text="안녕하세요, 한밭대학교
 
 ### 1학기 마무리
 	1학기동안 모은 학생들의 질문데이터로 파이썬에 대한 챗봇을 완성했다.
-
 
